@@ -14,7 +14,7 @@
     <header class="header" id="headerTop">
         <div class="container">
             <div class="header-wrapper">
-                <button class="burger-menu"></button>
+                <button class="burger-menu" onclick="openModal()"></button>
                 <div class="logo"></div>
                     <nav class="nav">
                         <a href="#" class="nav-link">Главная</a>
@@ -167,7 +167,7 @@
                     <a href="#" class="footer-link">Меню</a>
                     <a href="#" class="footer-link">Заказ и Доставка</a>
                     <a href="#" class="footer-link">Методы оплаты</a>
-                    <a href="contact.html"class="footer-link">Контакты</a>
+                    <a href="contact.html" class="footer-link">Контакты</a>
                 </nav>
                 <a class="footer-phone _mobile" href="tel:+79007871313">+ 7 900 787 13-13</a>
                 <a class="footer-phone _mobile" href="tel:+79007001414">+ 7 900 700 14-14</a>
@@ -192,6 +192,15 @@
         </div>
       </footer>
       <a href="#headerTop" class="button-up hidden" id="btnUp">Наверх</a>
+      <div class="modal" id="modal">
+        <nav class="nav _modal">
+            <a href="#" class="nav-link">Главная</a>
+            <a href="#" class="nav-link">Меню</a>
+            <a href="#" class="nav-link">О нас</a>
+            <a href="contact.html" class="nav-link">Контакты</a>
+        </nav>
+      <button class="modal-close" onclick="closeModal()"></button>
       <script src="/scripts/script.js"></script>
+      </div>
 </body>
 </html>
