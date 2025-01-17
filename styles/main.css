@@ -79,6 +79,12 @@ a{
     background-color: transparent;
     border-radius: 1px;
 }
+.nav._modal {
+    display: none;
+}
+.modal-close {
+    display: none;
+}
 .nav-link:hover::after{
     background-color: var(--accent-light);
 }
